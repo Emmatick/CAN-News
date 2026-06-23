@@ -1,0 +1,604 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./post.html" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blog World</title>
+  </head>
+  <body>
+    <!--------------------Header--------------->
+    <header class="header" id="header">
+      <nav class="navbar container">
+        <a href="./index.html">
+          <h2>CanNews</h2>
+        </a>
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="#" class="link-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link-link">Categories</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link-link">Reviews</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link-link">News</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link-link">Membership</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="link-link">Contact</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="link-link">Sign in</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="link-link">Sign up </a>
+            </li>
+          </ul>
+        </div>
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="btn place-items-center" id="search-icon">
+            <i class="fas fa-search"></i>
+          </button>
+
+          <button
+            class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+            id="menu-toggle-icon"
+          >
+            <i class="fas fa-bars open-menu-icon"></i>
+            <i class="fas fa-close close-menu-icon"></i>
+          </button>
+          <a href="#" class="list-link screen-sm-hidden">Sign In</a>
+          <span><a href="#" class="list-link screen-sm-hidden btn sign-up-btn fancy-border"
+            >Sign In</span></a
+          >
+        </div>
+      </nav>
+    </header>
+    <!-----------------Search----------->
+    <div class="search-form-container container" id="search-form-container">
+    <div class="form-container-inner">
+       <form action="" class="form">
+        <input type="text" class="form-input" placeholder="what are looking for?">
+        <button class="btn form-btn" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+       </form>
+       <span class="form-note">Or press ESC to close.</span>
+    </div>
+    <button class="btn form-close-btn place-items-center" id="form-close-btn">
+      <i class="fas fa-close"></i>
+    </button>
+    </div>
+
+    <!---------------------------Feature------------------------->
+    <section class="featured-articles section-header-offset">
+      <div class="featured-articles-container container d-grid">
+        <div class="featured-content d-grid">
+          <div class="headline-banner">
+            <h3 class="headline fancy-border"><span class="place-items-center">Breaking News</span></h3>
+            <span class="headline-description">Apple announces a new partnership...</span>
+          </div>
+          <!--------------Feature 1-------------->
+          <a href="./post.html" class="article featured-article featured-article-1">
+            <img src="./3d-Design.jfif" alt="" class="article-image">
+            <span class="article-category">Real Estate</span>
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>Mar 10th 2026</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min ago</span>
+              </div>
+              <h3 class="title article-title">Invest in Real Estate</h3>
+            </div>
+          </a>
+          <!-----------------Feature 2--------------------->
+          <a href="./post.html" class="article featured-article featured-article-2">
+            <img src="./fruit.jfif" alt="" class="article-image">
+            <span class="article-category">Fruits</span>
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>Dec 5th 2026</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min ago</span>
+              </div>
+              <h3 class="title article-title">Nutrients</h3>
+            </div>
+          </a>
+          <!------------------------Feature 3------------------>
+          <a href="./post.html" class="article featured-article featured-article-3">
+            <img src="./VR.jfif" alt="" class="article-image">
+            <span class="article-category">Technology</span>
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min red</span>
+              </div>
+              <h3 class="title article-title">Ai is the future</h3>
+            </div>
+          </a>
+        </div>
+
+        <!--------------------------SideBar--------------------->
+        <div class="sidebar d-grid">
+          <h3 class="title featured-content-title">Trending News </h3>
+
+
+          <!---------------Trending 1----------------->
+          <a href="#" class="trending-news-box">
+          
+              <div class="trending-news-image-box">
+                <span class="trending-number place-item-center">01</span>
+                <img src="./Stammer.jfif" alt="" class="article-image">
+              </div>
+              <div class="trending-news-data">
+              <div class="article-data">
+                <span>Jun 21 2026</span>
+                <span class="article-data-spacer"></span>
+                <span>ARN News Centre</span>
+              </div>
+              <h3 class="title article-title">Uk PM Stammer says he will reign</h3>
+            </div>
+            
+          </a>
+<!-----------------------------Trending 2------------------------------>
+<a href="#" class="trending-news-box">
+            
+              <div class="trending-news-image-box">
+                <span class="trending-number place-item-center">02</span>
+                <img src="./giraffe.jfif" alt="" class="article-image">
+              </div>
+              <div class="trending-news-data">
+              <div class="article-data">
+                <span>Jun 5th 2026</span>
+                <span class="article-data-spacer"></span>
+                <span>Boston 25 News</span>
+              </div>
+              <h3 class="title article-title">Two missing giraffe calves found after more than a year</h3>
+            </div>
+          
+          </a>
+          <!-----------------------------Trending 3------------------------------->
+          <a href="#" class="trending-news-box">
+          
+              <div class="trending-news-image-box">
+                <span class="trending-number place-item-center">03</span>
+                <img src="./Serena Williams.jfif" alt="" class="article-image">
+              </div>
+              <div class="trending-news-data">
+              <div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>ARN News Centre</span>
+              </div>
+              <h3 class="title article-title">Serena Williams handed Wimbledon singles wildcard</h3>
+            </div>
+            
+          </a>
+
+          <!-----------------------trending 4------------------------------->
+          <a href="#" class="trending-news-box">
+              <div class="trending-news-image-box">
+                <span class="trending-number place-item-center">04</span>
+                <img src="./trump.jfif" alt="" class="article-image">
+              </div>
+              <div class="trending-news-data">
+              <div class="article-data">
+                <span>Jun 20th 2026</span>
+                <span class="article-data-spacer"></span>
+                <span>Hindustan</span>
+              </div>
+              <h3 class="title article-title">Why Donald Trump's zodaic sign keeps trending online during the poll news</h3>
+            </div>
+            
+          </a>
+          <!---------------------------------trending 5------------------------->
+          <a href="#" class="trending-news-box">
+            
+              <div class="trending-news-image-box">
+                <span class="trending-number place-item-center">05</span>
+                <img src="./war.jfif" alt="" class="article-image">
+              </div>
+              <div class="trending-news-data">
+              <div class="article-data">
+                <span>Jun 4th 2026</span>
+                <span class="article-data-spacer"></span>
+                <span>ARN News</span>
+              </div>
+              <h3 class="title article-title">Us,Iran sign interim ceasefire agreement</h3>
+            </div>
+          
+          </a>
+<!----------------------------------------------------------------------------------------->
+        </div>
+      </div>
+    </section>
+
+    <!------------------------Quick Read-------------------->
+   <!--------<section class="quick-read section">
+      <div class="container">
+<h2 class="title section-title" data-name="Quick read">Quick Read</h2>
+<div class="swiper d-grid">
+<diV class="swiper-wrapper">
+  ------------------------1-------------------------------------
+  <a href="" class="article swiper-slide">
+    <img src="./sport.jfif" alt="" class="quick-image">
+
+    <div class="article-data-container">
+<div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min red</span>
+              </div>
+              <h3 class="title article-title">Is VR the </h3>
+    </div>
+  </a>
+  ----------------------2-------------------------------------
+  <a href="" class="article swiper-slide">
+    <img src="./sport.jfif" alt="" class="quick-image">
+
+    <div class="article-data-container">
+<div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min red</span>
+              </div>
+              <h3 class="title article-title">Is VR the </h3>
+    </div>
+  </a>
+  ----------------------3-------------------------------------
+  <a href="" class="article swiper-slide">
+    <img src="./sport.jfif" alt="" class="quick-image">
+
+    <div class="article-data-container">
+<div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min red</span>
+              </div>
+              <h3 class="title article-title">Is VR the </h3>
+    </div>
+  </a>
+  <-----------------------4-------------------------------------
+  <a href="" class="article swiper-slide">
+    <img src="./sport.jfif" alt="" class="quick-image">
+
+    <div class="article-data-container">
+<div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min red</span>
+              </div>
+              <h3 class="title article-title">Is VR the </h3>
+    </div>
+  </a>
+  ----------------------5-------------------------------------
+  <a href="" class="article swiper-slide">
+    <img src="./sport.jfif" alt="" class="quick-image">
+
+    <div class="article-data-container">
+<div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min red</span>
+              </div>
+              <h3 class="title article-title">Is VR the </h3>
+    </div>
+  </a>
+  -----------------------6-------------------------------------
+  <a href="" class="article swiper-slide">
+    <img src="./sport.jfif" alt="" class="quick-image">
+
+    <div class="article-data-container">
+<div class="article-data">
+                <span>Dec 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>8 min red</span>
+              </div>
+              <h3 class="title article-title">Is VR the </h3>
+    </div>
+  </a>
+  --------------------------------------------------------------------------------------------------------------------
+</diV>
+<div class="swiper-button-prev swiper-controls"></div>
+
+<div class="swiper-button-next swiper-controls"></div>
+<div class="swiper-pagination"></div>
+</div>
+      </div>
+    </section>--->
+
+    <!--------------------------------------------------------------->
+
+<section class="older-posts section">
+  <div class="container">
+<h2 class="title section-title" data-name="Older posts">Older posts</h2>
+<div class="older-posts-grid-wrapper d-grid">
+  <a href="" class="article d-grid">
+    <div class="older-posts-article-image-wrapper">
+      <img src="./world cup.jfif" alt="" class="article-image">
+    </div>
+<div class="article-data-container">
+    <div class="article-data">
+      <span>jun 18th 2026</span>
+      <span class="article-data-spacer"></span>
+      <span>yesterday</span>
+    </div>
+    <h3 class="title article-title">Match Details</h3>
+    <p class="article-description">The 2026 FIFA World Cup is currently underway across Canada, Mexico, and the United States. The tournament kicked off on June 11 in Mexico City and runs until the final in New Jersey on July 19.</p>
+  </div>
+  </a>
+
+  <!------------------------------2----------------------------->
+  <a href="" class="article d-grid">
+    <div class="older-posts-article-image-wrapper">
+      <img src="./politics.jfif" alt="" class="article-image">
+    </div>
+<div class="article-data-container">
+    <div class="article-data">
+      <span>Dec 5th 2023</span>
+      <span class="article-data-spacer"></span>
+      <span>8 min red </span>
+    </div>
+    <h3 class="title article-title">Is VR the future?</h3>
+    <p class="article-description">Trump warn Israel against attacking Iran during this peace</p>
+  </div>
+  </a>
+  <!------------------------------3----------------------------->
+  <a href="" class="article d-grid">
+    <div class="older-posts-article-image-wrapper">
+      <img src="./Ainews.jfif" alt="" class="article-image">
+    </div>
+<div class="article-data-container">
+    <div class="article-data">
+      <span>jun 5th 2026</span>
+      <span class="article-data-spacer"></span>
+      <span>8 min red </span>
+    </div>
+    <h3 class="title article-title">Is AI the future?</h3>
+    <p class="article-description">Recent AI developments are dominated by the "agentic transition," where models act as autonomous digital assistants, multi-billion-dollar investments in dedicated data center power sources, and the release of highly advanced models like Claude 5 and Gemini 3.5</p>
+  </div>
+  </a>
+  <!------------------------------4----------------------------->
+  <a href="" class="article d-grid">
+    <div class="older-posts-article-image-wrapper">
+      <img src="./stock.jfif" alt="" class="article-image">
+    </div>
+<div class="article-data-container">
+    <div class="article-data">
+      <span>jun 19th 202</span>
+      <span class="article-data-spacer"></span>
+      <span>8 min ago </span>
+    </div>
+    <h3 class="title article-title">Current Stock News</h3>
+    <p class="article-description">Global markets are rallying as U.S. and Iranian peace talks ease geopolitical tensions, prompting a surge in chip stocks and a strong performance across major indices. Wall Street is also closely monitoring the Federal Reserve's leadership transition and looking ahead to upcoming corporate earning</p>
+  </div>
+  </a>
+  <!------------------------------5----------------------------->
+  <a href="" class="article d-grid">
+    <div class="older-posts-article-image-wrapper">
+      <img src="./graduate.jfif" alt="" class="article-image">
+    </div>
+<div class="article-data-container">
+    <div class="article-data">
+      <span>6th june 2026</span>
+      <span class="article-data-spacer"></span>
+      <span>8 min ago  </span>
+    </div>
+    <h3 class="title article-title">Latest Graduate</h3>
+    <p class="article-description">The Class of 2026 has recently wrapped up its commencement ceremonies, marking the latest wave of graduating students. Schools, colleges, and universities across North America, Europe, and globally concluded their academic years</p>
+  </div>
+  </a>
+  <!------------------------------6----------------------------->
+  <a href="" class="article d-grid">
+    <div class="older-posts-article-image-wrapper">
+      <img src="./VR.jfif" alt="" class="article-image">
+    </div>
+<div class="article-data-container">
+    <div class="article-data">
+      <span>Dec 5th 2023</span>
+      <span class="article-data-spacer"></span>
+      <span>8 min red </span>
+    </div>
+    <h3 class="title article-title">Is VR the future?</h3>
+    <p class="article-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tenetur vitae officia.</p>
+  </div>
+  </a>
+  <!------------------------------------------------------------------------------------->
+</div>
+<div class="see-more-container">
+  <a href="#" class="btn see-more-btn place-items-center">
+    See more <i class="fas fa-right-arrow"></i>
+  </a>
+</div>
+  </div>
+</section>
+
+<!----------------Popular tags------------------------------>
+<section class="popular-tags section">
+  <div class="container">
+<h2 class="title section-title" data-name="Popular tags">Travelling</h2>
+<div class="popular-tags-container d-grid">
+  <!-------------------popular 1-->
+<a href="#" class="article">
+  <span class="tag-name">#Technology</span>
+  <img src="./tech2.jfif" alt="" class="article-image">
+</a>
+<!-------------------popular 2-->
+<a href="#" class="article">
+  <span class="tag-name">#Technology</span>
+  <img src="./tech3.jfif" alt="" class="article-image">
+</a>
+<!-------------------popular 3-->
+<a href="#" class="article">
+  <span class="tag-name">#Technology</span>
+  <img src="./tech4.jfif" alt="" class="article-image">
+</a>
+<!-------------------popular 4-->
+<a href="#" class="article">
+  <span class="tag-name">#Technology</span>
+  <img src="./tech5.jfif" alt="" class="article-image">
+</a>
+<!-------------------popular 5-->
+<a href="#" class="article">
+  <span class="tag-name">#Technology</span>
+  <img src="./technology.jfif" alt="" class="article-image">
+</a>
+
+</div>
+<!---------------------------------------------------->
+
+
+  </div>
+</section>
+
+<!------------------------Newsletter-------------------->
+<section class="newsletter section">
+<div class="container">
+<h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+<div class="form-container-inner">
+
+  <h6 class="title newsletter-title">Subscribe to NewsFlash</h6>
+  <p class="newsletter-description">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus necessitatibus aperiam distinctio ad quam veritatis recusandae possimus voluptate est cupiditate?
+  </p>
+  <form action="" class="form">
+    <input type="text" class="form-input" placeholder="Enter your email address">
+    <button class="btn form-btn" type="submit">
+      <i class="fa-solid fa-inbox"></i>
+    </button>
+  </form>
+</div>
+</div>
+</section>
+
+
+<!---------------------Footer--------------------------->
+<footer class="footer section">
+  <div class="footer-container container d-grid">
+    <div class="company-data">
+       <a href="./index.html">
+        <h2 class="logo">NewsFlash</h2>
+       </a>
+       <p class="company-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sit cumque magni laboriosam!
+       </p>
+
+       <ul class="list social-media">
+        <li class="list-item">
+             <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-dribbble fa-2x"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        </li>
+       </ul>
+       <span class="copyright-notice">&copy; 2026 CanNews. All rights reserved</span>
+    </div>
+    <div>
+
+      <h6 class="title footer-title"> Categories</h6>
+      <ul class="list footer-list">
+    <li class="list-item">
+<a href="./post.html" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+      </ul>
+    </div>
+    <!-----------------------------1-------------------------------------->
+     <div>
+      <h6 class="title footer-title">Useful links</h6>
+      <ul class="list footer-list">
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+      </ul>
+    </div>
+    <!------------------------------2------------------------------------->
+ <div>
+      <h6 class="title footer-title"> Company </h6>
+      <ul class="list footer-list">
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+    <li class="list-item">
+<a href="#" class="list-link">Sample Item </a>
+    </li>
+      </ul>
+    </div>
+
+    
+    <!--------------------------------------------------------------------->
+  </div>
+</footer>
+    <script src="./blog.js"></script>
+  </body>
+</html>
